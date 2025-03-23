@@ -1,0 +1,21 @@
+[project]
+name = "analytics"
+version = "0.1.0"
+description = "Template for exploratory data analysis, internal dashboards, and reporting"
+authors = [
+    {name = "mandresyandri",email = "mandresy.andriantsoanavalona@gmail.com"}
+]
+license = {text = "Apache License"}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "numpy (>=2.2.4,<3.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "jupyterlab (>=4.3.6,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
